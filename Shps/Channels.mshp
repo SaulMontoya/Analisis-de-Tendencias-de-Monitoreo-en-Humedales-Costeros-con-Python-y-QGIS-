@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY>
+    <MODULE>Channel Network and Drainage Basins</MODULE>
+    <OPTION type="integer" id="THRESHOLD" name="Threshold">5</OPTION>
+    <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+      <CELLSIZE>30.16334464245258</CELLSIZE>
+      <XMIN>189990.4454841317</XMIN>
+      <XMAX>205253.09787321265</XMAX>
+      <YMIN>8096756.784104296</YMIN>
+      <YMAX>8112200.416561232</YMAX>
+      <DATA type="grid" id="DEM" name="Elevation">
+        <MODULE>Fill Sinks (Wang &amp; Liu)</MODULE>
+        <OPTION type="double" id="MINSLOPE" name="Minimum Slope [Degree]">0.100000</OPTION>
+        <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+          <CELLSIZE>30.16334464245258</CELLSIZE>
+          <XMIN>189990.4454841317</XMIN>
+          <XMAX>205253.09787321265</XMAX>
+          <YMIN>8096756.784104296</YMIN>
+          <YMAX>8112200.416561232</YMAX>
+          <DATA type="grid" id="ELEV" name="DEM">
+            <MODULE>GDAL: Import Raster</MODULE>
+            <OPTION type="file" id="FILES" name="Files">\\Gidanas1\hatariserver\4_PROJECTS\Py2016\05_OEFA_TiaMaria\1_ProcessedData\1_2Spt_Rst\LagunasMejia\Elev_LagunasMejia_WGS19S.tif</OPTION>
+            <OPTION type="boolean" id="SELECT" name="Select from Multiple Bands">TRUE</OPTION>
+            <OPTION type="boolean" id="TRANSFORM" name="Transformation">TRUE</OPTION>
+            <OPTION type="choice" id="INTERPOL" name="Interpolation">4</OPTION>NOT SET</DATA>
+        </OPTION>
+        <DATA type="grid" id="ELEV" name="DEM">
+          <MODULE>GDAL: Import Raster</MODULE>
+          <OPTION type="file" id="FILES" name="Files">\\Gidanas1\hatariserver\4_PROJECTS\Py2016\05_OEFA_TiaMaria\1_ProcessedData\1_2Spt_Rst\LagunasMejia\Elev_LagunasMejia_WGS19S.tif</OPTION>
+          <OPTION type="boolean" id="SELECT" name="Select from Multiple Bands">TRUE</OPTION>
+          <OPTION type="boolean" id="TRANSFORM" name="Transformation">TRUE</OPTION>
+          <OPTION type="choice" id="INTERPOL" name="Interpolation">4</OPTION>NOT SET</DATA>NOT SET</DATA>
+    </OPTION>
+    <DATA type="grid" id="DEM" name="Elevation">
+      <MODULE>Fill Sinks (Wang &amp; Liu)</MODULE>
+      <OPTION type="double" id="MINSLOPE" name="Minimum Slope [Degree]">0.100000</OPTION>
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid system">
+        <CELLSIZE>30.16334464245258</CELLSIZE>
+        <XMIN>189990.4454841317</XMIN>
+        <XMAX>205253.09787321265</XMAX>
+        <YMIN>8096756.784104296</YMIN>
+        <YMAX>8112200.416561232</YMAX>
+        <DATA type="grid" id="ELEV" name="DEM">
+          <MODULE>GDAL: Import Raster</MODULE>
+          <OPTION type="file" id="FILES" name="Files">\\Gidanas1\hatariserver\4_PROJECTS\Py2016\05_OEFA_TiaMaria\1_ProcessedData\1_2Spt_Rst\LagunasMejia\Elev_LagunasMejia_WGS19S.tif</OPTION>
+          <OPTION type="boolean" id="SELECT" name="Select from Multiple Bands">TRUE</OPTION>
+          <OPTION type="boolean" id="TRANSFORM" name="Transformation">TRUE</OPTION>
+          <OPTION type="choice" id="INTERPOL" name="Interpolation">4</OPTION>NOT SET</DATA>
+      </OPTION>
+      <DATA type="grid" id="ELEV" name="DEM">
+        <MODULE>GDAL: Import Raster</MODULE>
+        <OPTION type="file" id="FILES" name="Files">\\Gidanas1\hatariserver\4_PROJECTS\Py2016\05_OEFA_TiaMaria\1_ProcessedData\1_2Spt_Rst\LagunasMejia\Elev_LagunasMejia_WGS19S.tif</OPTION>
+        <OPTION type="boolean" id="SELECT" name="Select from Multiple Bands">TRUE</OPTION>
+        <OPTION type="boolean" id="TRANSFORM" name="Transformation">TRUE</OPTION>
+        <OPTION type="choice" id="INTERPOL" name="Interpolation">4</OPTION>NOT SET</DATA>NOT SET</DATA>
+  </HISTORY>
+  <SOURCE>
+    <FILE>\\Gidanas1\hatariserver\4_PROJECTS\Py2016\05_OEFA_TiaMaria\1_ProcessedData\1_2Spt_Shp\LagunasMejia\Channels.shp</FILE>
+    <DATABASE></DATABASE>
+    <PROJECTION>
+      <OGC_WKT>PROJCS["WGS 84 / UTM zone 19S",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.01745329251994328,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-69],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",10000000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","32719"]]</OGC_WKT>
+      <PROJ4>+proj=utm +zone=19 +south +ellps=WGS84 +datum=WGS84 +units=m +no_defs </PROJ4>
+      <EPSG>32719</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>
